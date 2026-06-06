@@ -389,12 +389,24 @@ thead {
     box-shadow: 0 8px 20px lightblue;
 }
 
-.dark-mode li {
+.dark-mode .bravo li {
     background-color: #2b2b2b;
     color: white;
 }
 
-.dark-mode li:hover {
+.dark-mode .bravo li:hover {
     background-color: darkblue;
     transform: translateX(10px)
+}
+
+.dark-mode table,
+.dark-mode th,
+.dark-mode td {
+    background-color: #2b2b2b;
+    color: white;
+    border-color: #444;
+}
+
+.dark-mode thead {
+    background-color: #1a3a5c;
 }
