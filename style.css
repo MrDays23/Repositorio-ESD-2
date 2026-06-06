@@ -160,43 +160,44 @@ footer ul li a {
 }
 
 .S img {
-    width: 300px;
-    height: 300px;
+    max-width: 100%;
+    height: auto;
+
 }
 
 .Z img {
-    width: 450px;
-    height: 450px;
+    max-width: 100%;
+    height: auto;
 }
 
 .A img {
-    width: 275px;
-    height: 350px;
+    max-width: 100%;
+    height: auto;
 }
 
 .M img {
-    width: 350px;
-    height: 350px;
+    max-width: 100%;
+    height: auto;
 }
 
 .Tab img {
-    width: 450px;
-    height: 315px;
+    max-width: 100%;
+    height: auto;
 }
 
 .Watch img {
-    width: 300px;
-    height: 300px;
+    max-width: 100%;
+    height: auto;
 }
 
 .Buds img {
-    width: 300px;
-    height: 300px;
+    max-width: 100%;
+    height: auto;
 }
 
 .Book img {
-    width: 300px;
-    height: 300px;
+    max-width: 100%;
+    height: auto;
 }
 
 .bravo {
@@ -275,8 +276,10 @@ footer ul li a {
 
 .grid {
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
 }
 
 .echo {
